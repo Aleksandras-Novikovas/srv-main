@@ -1,0 +1,35 @@
+{
+    "name": "srv-main",
+    "version": "0.0.1",
+    "description": "Server blueprint",
+    "license": "MIT",
+    "author": {
+        "name": "Aleksandras Novikovas",
+        "email": "Aleksandras.Novikovas@gmail.com"
+    },
+    "contributors": [],
+    "repository": {
+        "type": "git",
+        "url": "git://github.com/Aleksandras-Novikovas/srv-main.git"
+    },
+    "scripts": {
+        "install": "node install.js",
+        "start": "node server.js",
+        "test": "node_modules/.bin/mocha --recursive test"
+    },
+    "bin": {
+        "srv-install":  "./install.js",
+        "srv-start":  "./server.js"
+    },
+    "dependencies": {
+        "fs-extra": "^2.1.2",
+        "srv-core": "git://github.com/Aleksandras-Novikovas/srv-core.git",
+        "srv-config": "git://github.com/Aleksandras-Novikovas/srv-config.git",
+        "srv-log": "git://github.com/Aleksandras-Novikovas/srv-log.git",
+        "srv-server": "git://github.com/Aleksandras-Novikovas/srv-server.git",
+        "srv-util": "git://github.com/Aleksandras-Novikovas/srv-util.git"
+    },
+    "devDependencies": {
+        "jsdoc": "^3.4.3"
+    }
+}
