@@ -24,7 +24,7 @@ class Install {
         });
         rl.on("SIGINT", function() {
             // Exit with error if Control-C pressed
-            process.exit(-1);
+            process.exit(0);
         });
         rl.question("Destination directory [" + p + "]: ", function(answer) {
             if (answer) {
