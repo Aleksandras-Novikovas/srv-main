@@ -1,6 +1,6 @@
 {
     "name": "srv-main",
-    "version": "1.0.2",
+    "version": "1.0.3",
     "description": "Server blueprint",
     "license": "MIT",
     "author": {
