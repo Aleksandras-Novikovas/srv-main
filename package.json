@@ -1,6 +1,6 @@
 {
     "name": "srv-main",
-    "version": "1.0.3",
+    "version": "1.0.4",
     "description": "Server blueprint",
     "license": "MIT",
     "author": {
@@ -26,8 +26,8 @@
         "srv-core": "^1.0.0",
         "srv-config": "^1.0.0",
         "srv-log": "^1.0.0",
-        "srv-server": "^1.0.1",
-        "srv-util": "^1.0.0"
+        "srv-server": "^1.0.5",
+        "srv-util": "^1.0.1"
     },
     "devDependencies": {
         "jsdoc": "^3.4.3"
